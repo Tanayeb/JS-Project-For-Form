@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Reservation Form</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-purple-100 min-h-screen flex items-center justify-center p-4">
+    <div class="bg-white rounded-lg shadow-md p-8 w-full max-w-md">
+        <h2 class="text-2xl font-bold mb-6 text-purple-800">Restaurant Reservation Form</h2>
+        <form   accept-charset="UTF-8"
+        action="https://www.formbackend.com/f/6b8ed63414e3045c"
+        method="POST"class="space-y-4">
+            <div class="flex gap-4">
+                <div class="flex-1">
+                    <label for="firstName" class="block text-sm font-medium text-gray-700">First Name</label>
+                    <input
+                        type="text"
+                        id="firstName"
+                        name="firstName"
+                        required
+                        class="mt-1 block w-full rounded-md border-purple-500 shadow-sm focus:border-purple-500 focus:ring-purple-500"
+                    >
+                </div>
+                <div class="flex-1">
+                    <label for="lastName" class="block text-sm font-medium text-gray-700">Last Name</label>
+                    <input
+                        type="text"
+                        id="lastName"
+                        name="lastName"
+                        required
+                        class="mt-1 block w-full rounded-md border-purple-500 shadow-sm focus:border-purple-500 focus:ring-purple-500"
+                    >
+                </div>
+            </div>
+            <div>
+                <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required
+                    class="mt-1 block w-full rounded-md border-purple-500 shadow-sm focus:border-purple-500 focus:ring-purple-500"
+                >
+            </div>
+            <div>
+                <label for="phone" class="block text-sm font-medium text-gray-700">Phone</label>
+                <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    required
+                    placeholder="### ### ####"
+                    class="mt-1 block w-full rounded-md border-purple-500 shadow-sm focus:border-purple-500 focus:ring-purple-500"
+                >
+            </div>
+            <div class="flex gap-4">
+                <div class="flex-1">
+                    <label for="date" class="block text-sm font-medium text-gray-700">Reservation Date</label>
+                    <input
+                        type="date"
+                        id="date"
+                        name="date"
+                        required
+                        class="mt-1 block w-full rounded-md border-purple-500 shadow-sm focus:border-purple-500 focus:ring-purple-500"
+                    >
+                </div>
+                <div class="flex-1">
+                    <label for="time" class="block text-sm font-medium text-gray-700">Reservation Time</label>
+                    <input
+                        type="time"
+                        id="time"
+                        name="time"
+                        required
+                        class="mt-1 block w-full rounded-md border-purple-500 shadow-sm focus:border-purple-500 focus:ring-purple-500"
+                    >
+                </div>
+            </div>
+            <div>
+                <label for="people" class="block text-sm font-medium text-gray-700">How many people will you be with?</label>
+                <input
+                    type="number"
+                    id="people"
+                    name="people"
+                    required
+                    class="mt-1 block w-full rounded-md border-purple-500 shadow-sm focus:border-purple-500 focus:ring-purple-500"
+                >
+            </div>
+            <div>
+                <label for="notes" class="block text-sm font-medium text-gray-700">Notes</label>
+                <textarea
+                    id="notes"
+                    name="notes"
+                    rows="3"
+                    class="mt-1 block w-full rounded-md border-purple-500 shadow-sm focus:border-purple-500 focus:ring-purple-500"
+                ></textarea>
+            </div>
+            <button
+                type="submit"
+                class="w-full bg-purple-600 text-white py-2 px-4 rounded-md hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 transition duration-150 ease-in-out"
+            >
+                SEND
+            </button>
+        </form>
+    </div>
+</body>
+</html>
